@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book-form</title>
+    <link rel="stylesheet" href="style-form.css" />
+  </head>
+  <body>
+    <form action="homepage.html" metod="post" id="Book-Form-Add">
+      <input type="text" id="url" placeholder="Image-URL" />
+      <p class="errorMessage">Image URL must be correct</p>
+      <input type="text" id="Title-Book" placeholder="Title" />
+      <p class="errorMessage">
+        The Title of the book must be entered correctly
+      </p>
+      <select id="Autor-Book">
+        <option value="0">Choose Author</option>
+      </select>
+      <p class="errorMessage">Autor must be entered correctly</p>
+      <input type="date" id="Year-Book" placeholder="Year" />
+      <p class="errorMessage">Year must be entered correctly</p>
+      <select id="Categories-Book">
+        <option value="0">Choose Category</option>
+      </select>
+      <p class="errorMessage">Categories must be entered correctly</p>
+      <textarea id="Description-Book" placeholder="Description"></textarea>
+      <p class="errorMessage">Description must be entered correctly</p>
+      <input type="submit" value="ADD BOOK" />
+    </form>
+    <script src="/assets/js/book-form.js"></script>
+  </body>
+</html>

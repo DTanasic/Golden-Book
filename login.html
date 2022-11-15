@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Golden book">
+        <meta name="keywords" content="best books, online books">
+        <meta name="author" content="Dusan Tanasic">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <nav>
+                    <h1>Golden Book.</h1>
+                </nav>
+            </header>
+            <div class="background-img">
+                <div class="wrapper">
+                    <div class="background-img">
+                        <img src="assets/img/book-background.jpg" alt="" >
+                    </div>  
+                <div class="right">
+                    <h3>Login</h3>
+                    <form action="homepage.html" method="get" id="BookForm" >
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <p class="errorMessage">Email must be correct</p>
+                    </div>
+                      
+                    <div class="form-group">
+                        <input type="password" id="password" name="password" placeholder="Password">
+                        <p class="errorMessage">Password must be correct</p>
+                    </div>
+                        <p>Already have a account? <a id="a-signup" href="sign-up.html"> Sign up</a></p>
+                        <input class="button-form" type="submit" value="LOGIN">
+                    </form>
+                </div>
+                </div>
+                <footer>
+                    <p>ANGULAR WORKSHOP 2022</p>
+                </footer>
+            </div>
+        </div>
+        <script src="assets/js/login.js"></script>
+    </body>
+</html>
